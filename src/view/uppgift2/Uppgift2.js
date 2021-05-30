@@ -1,11 +1,15 @@
 import React from 'react'
+import { useState } from 'react'
 
 export const Uppgift2 = () => {
+
+	const [text, setText] = useState('')
+
 	return (
 		<div>
 			<h1>Uppgift 2</h1>
-			<h2>(värdet av ditt state skall synas i denna tag)</h2>
-			<input placeholder="Denna input skall uppdatera värdet som matas in till ditt state" />
+			<h2>{text}</h2>
+			<input placeholder='text' onChange={event => setText(event.target.value)}/>
 		</div>
 	)
 }

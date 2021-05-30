@@ -1,14 +1,21 @@
 import React from 'react'
+import ReactDOM from "react-dom"
 
-export const Introduktion = () => {
+const Namn = "Jonas";
+const Efternamn = "Lindström";
+const Klass = "JavaScript fullstack V21-2"
+
+export const Introduktion = props => {
 	return (
-		<div className="introduktion">
-			<h2>Förnamn: </h2>
-			<h2>Efternamn: </h2>
-			<h2>Kurs: </h2>
+		<div className="Introduktion">
+			<h2>{Namn}</h2>
+			<h2>{Efternamn}</h2>
+			<h2>{Klass}</h2>
 		</div>
 	)
 }
+
+export default Introduktion
 
 
 /*

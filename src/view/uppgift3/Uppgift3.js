@@ -11,8 +11,8 @@ export const Uppgift3 = () => {
 
 	const buttons = () => {
 		return <div>
-			<button>Increment</button> <br />
-			<button>Decrement</button>
+			<button onClick={() => getCharacterNameFromStarwarsAPI(count+1)}>Increment</button> <br />
+			<button onClick={() => getCharacterNameFromStarwarsAPI(count-1)}>Decrement</button>
 		</div>
 	}
 

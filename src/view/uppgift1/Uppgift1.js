@@ -1,13 +1,24 @@
 import React from 'react'
+import ReactDOM from "react-dom"
+import Introduktion from '../../components/Introduktion'
+
+
 
 export const Uppgift1 = () => {
 	return (
 		<div>
 			<h1>Uppgift 1</h1>
+			<Introduktion />
 		</div>
+		
 	)
 }
 
+
+  
+
+
+ 
 /*
 
 INSTRUKTIONER FÖR UPPGIFT 1:
