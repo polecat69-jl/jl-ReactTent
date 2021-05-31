@@ -8,15 +8,11 @@ export const Uppgift1 = () => {
 	return (
 		<div>
 			<h1>Uppgift 1</h1>
-			<Introduktion />
+			<Introduktion namn={"Jonas"} efternamn="Lindström" klass="JavaScript fullstack V21-2"/>
 		</div>
 		
 	)
 }
-
-
-  
-
 
  
 /*

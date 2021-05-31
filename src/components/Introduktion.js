@@ -1,16 +1,15 @@
 import React from 'react'
 import ReactDOM from "react-dom"
 
-const Namn = "Jonas";
-const Efternamn = "Lindström";
-const Klass = "JavaScript fullstack V21-2"
+
 
 export const Introduktion = props => {
+
 	return (
 		<div className="Introduktion">
-			<h2>{Namn}</h2>
-			<h2>{Efternamn}</h2>
-			<h2>{Klass}</h2>
+			<h2>{props.namn}</h2>
+			<h2>{props.efternamn}</h2>
+			<h2>{props.klass}</h2>
 		</div>
 	)
 }
